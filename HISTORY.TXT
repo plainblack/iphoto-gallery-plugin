@@ -1,0 +1,23 @@
+====================
+TODO:
+====================
+Version 1.2.5:
+
+
+====================
+DONE:
+====================
+Version 1.2.4:
+Added Error Alerts
+
+Version 1.2.3:
+Added New Icons
+Added Link to Album
+Added Link to Gallery
+Added Activity Indicator for Get Galleries and Get Albums
+
+Version 1.2.2:
+Added Info Screen and Activity Indicator for file uploads
+Sent to JT
+
+Version 1.2.1
