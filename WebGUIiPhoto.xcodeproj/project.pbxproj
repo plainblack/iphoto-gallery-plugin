@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		C60F23ED0F1932B900B80A28 /* NewAlbumRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C60F23EC0F1932B900B80A28 /* NewAlbumRequest.m */; };
+		C6128B7C0F0A82E600ED500B /* AlbumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C6128B6F0F0A82E600ED500B /* AlbumModel.m */; };
+		C6128B7D0F0A82E600ED500B /* AlbumRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C6128B710F0A82E600ED500B /* AlbumRequest.m */; };
+		C6128B7E0F0A82E600ED500B /* GalleryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C6128B730F0A82E600ED500B /* GalleryModel.m */; };
+		C6128B7F0F0A82E600ED500B /* GalleryRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C6128B750F0A82E600ED500B /* GalleryRequest.m */; };
+		C6128B800F0A82E600ED500B /* UploadData.m in Sources */ = {isa = PBXBuildFile; fileRef = C6128B790F0A82E600ED500B /* UploadData.m */; };
+		C6128B810F0A82E600ED500B /* UploadPhotoRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C6128B7B0F0A82E600ED500B /* UploadPhotoRequest.m */; };
+		C66D51AF0F1292DC0063EF87 /* AuthCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = C66D51AE0F1292DC0063EF87 /* AuthCoder.m */; };
+		C69915750EF89C1E00AEA9DA /* WebGUIExportPluginBox.m in Sources */ = {isa = PBXBuildFile; fileRef = C69915740EF89C1E00AEA9DA /* WebGUIExportPluginBox.m */; };
+		C69915780EF89C3700AEA9DA /* WebGUIExportController.m in Sources */ = {isa = PBXBuildFile; fileRef = C69915770EF89C3700AEA9DA /* WebGUIExportController.m */; };
+		C6E2219E0EF0B0C900CCEB6C /* Panel.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6E2219D0EF0B0C900CCEB6C /* Panel.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCF630370AF2F00C91783 /* WebGUIiPhoto_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebGUIiPhoto_Prefix.pch; sourceTree = "<group>"; };
+		8D5B49B6048680CD000E48DA /* WebGUIiPhoto.iPhotoExporter */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebGUIiPhoto.iPhotoExporter; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C60F23EB0F1932B900B80A28 /* NewAlbumRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewAlbumRequest.h; sourceTree = "<group>"; };
+		C60F23EC0F1932B900B80A28 /* NewAlbumRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewAlbumRequest.m; sourceTree = "<group>"; };
+		C6128B6E0F0A82E600ED500B /* AlbumModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumModel.h; sourceTree = "<group>"; };
+		C6128B6F0F0A82E600ED500B /* AlbumModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumModel.m; sourceTree = "<group>"; };
+		C6128B700F0A82E600ED500B /* AlbumRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumRequest.h; sourceTree = "<group>"; };
+		C6128B710F0A82E600ED500B /* AlbumRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumRequest.m; sourceTree = "<group>"; };
+		C6128B720F0A82E600ED500B /* GalleryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryModel.h; sourceTree = "<group>"; };
+		C6128B730F0A82E600ED500B /* GalleryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryModel.m; sourceTree = "<group>"; };
+		C6128B740F0A82E600ED500B /* GalleryRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryRequest.h; sourceTree = "<group>"; };
+		C6128B750F0A82E600ED500B /* GalleryRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryRequest.m; sourceTree = "<group>"; };
+		C6128B760F0A82E600ED500B /* RequestDataDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestDataDelegate.h; sourceTree = "<group>"; };
+		C6128B780F0A82E600ED500B /* UploadData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadData.h; sourceTree = "<group>"; };
+		C6128B790F0A82E600ED500B /* UploadData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadData.m; sourceTree = "<group>"; };
+		C6128B7A0F0A82E600ED500B /* UploadPhotoRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadPhotoRequest.h; sourceTree = "<group>"; };
+		C6128B7B0F0A82E600ED500B /* UploadPhotoRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadPhotoRequest.m; sourceTree = "<group>"; };
+		C66D51AD0F1292DC0063EF87 /* AuthCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthCoder.h; sourceTree = "<group>"; };
+		C66D51AE0F1292DC0063EF87 /* AuthCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthCoder.m; sourceTree = "<group>"; };
+		C69915700EF89B4E00AEA9DA /* ExportImageProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExportImageProtocol.h; sourceTree = "<group>"; };
+		C69915710EF89B4E00AEA9DA /* ExportPluginBoxProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExportPluginBoxProtocol.h; sourceTree = "<group>"; };
+		C69915720EF89B4E00AEA9DA /* ExportPluginProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExportPluginProtocol.h; sourceTree = "<group>"; };
+		C69915730EF89C1E00AEA9DA /* WebGUIExportPluginBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebGUIExportPluginBox.h; sourceTree = "<group>"; };
+		C69915740EF89C1E00AEA9DA /* WebGUIExportPluginBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebGUIExportPluginBox.m; sourceTree = "<group>"; };
+		C69915760EF89C3700AEA9DA /* WebGUIExportController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebGUIExportController.h; sourceTree = "<group>"; };
+		C69915770EF89C3700AEA9DA /* WebGUIExportController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebGUIExportController.m; sourceTree = "<group>"; };
+		C6E2219D0EF0B0C900CCEB6C /* Panel.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Panel.xib; sourceTree = "<group>"; };
+		D2F7E65807B2D6F200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D5B49B3048680CD000E48DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* WebGUIiPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				32C88E010371C26100C91783 /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = WebGUIiPhoto;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B7048680CD000E48DA /* Info.plist */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+				C6E2219D0EF0B0C900CCEB6C /* Panel.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C6128B5F0F0A824200ED500B /* iPhotoPluginHeaders */,
+				C6128B6C0F0A828C00ED500B /* Util */,
+				C6128B8F0F0A82FF00ED500B /* Model */,
+				C69915760EF89C3700AEA9DA /* WebGUIExportController.h */,
+				C69915770EF89C3700AEA9DA /* WebGUIExportController.m */,
+				C69915730EF89C1E00AEA9DA /* WebGUIExportPluginBox.h */,
+				C69915740EF89C1E00AEA9DA /* WebGUIExportPluginBox.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+				D2F7E65807B2D6F200F64583 /* CoreData.framework */,
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B6048680CD000E48DA /* WebGUIiPhoto.iPhotoExporter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32C88E010371C26100C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF630370AF2F00C91783 /* WebGUIiPhoto_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		C6128B5F0F0A824200ED500B /* iPhotoPluginHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				C69915700EF89B4E00AEA9DA /* ExportImageProtocol.h */,
+				C69915710EF89B4E00AEA9DA /* ExportPluginBoxProtocol.h */,
+				C69915720EF89B4E00AEA9DA /* ExportPluginProtocol.h */,
+			);
+			name = iPhotoPluginHeaders;
+			sourceTree = "<group>";
+		};
+		C6128B6C0F0A828C00ED500B /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				C66D51AD0F1292DC0063EF87 /* AuthCoder.h */,
+				C66D51AE0F1292DC0063EF87 /* AuthCoder.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		C6128B8F0F0A82FF00ED500B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C6128B6E0F0A82E600ED500B /* AlbumModel.h */,
+				C6128B6F0F0A82E600ED500B /* AlbumModel.m */,
+				C6128B700F0A82E600ED500B /* AlbumRequest.h */,
+				C6128B710F0A82E600ED500B /* AlbumRequest.m */,
+				C6128B720F0A82E600ED500B /* GalleryModel.h */,
+				C6128B730F0A82E600ED500B /* GalleryModel.m */,
+				C6128B740F0A82E600ED500B /* GalleryRequest.h */,
+				C6128B750F0A82E600ED500B /* GalleryRequest.m */,
+				C6128B760F0A82E600ED500B /* RequestDataDelegate.h */,
+				C6128B780F0A82E600ED500B /* UploadData.h */,
+				C6128B790F0A82E600ED500B /* UploadData.m */,
+				C6128B7A0F0A82E600ED500B /* UploadPhotoRequest.h */,
+				C6128B7B0F0A82E600ED500B /* UploadPhotoRequest.m */,
+				C60F23EB0F1932B900B80A28 /* NewAlbumRequest.h */,
+				C60F23EC0F1932B900B80A28 /* NewAlbumRequest.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D5B49AC048680CD000E48DA /* WebGUIiPhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "WebGUIiPhoto" */;
+			buildPhases = (
+				8D5B49AF048680CD000E48DA /* Resources */,
+				8D5B49B1048680CD000E48DA /* Sources */,
+				8D5B49B3048680CD000E48DA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebGUIiPhoto;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = WebGUIiPhoto;
+			productReference = 8D5B49B6048680CD000E48DA /* WebGUIiPhoto.iPhotoExporter */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "WebGUIiPhoto" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 089C166AFE841209C02AAC07 /* WebGUIiPhoto */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D5B49AC048680CD000E48DA /* WebGUIiPhoto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D5B49AF048680CD000E48DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */,
+				C6E2219E0EF0B0C900CCEB6C /* Panel.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D5B49B1048680CD000E48DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C69915750EF89C1E00AEA9DA /* WebGUIExportPluginBox.m in Sources */,
+				C69915780EF89C3700AEA9DA /* WebGUIExportController.m in Sources */,
+				C6128B7C0F0A82E600ED500B /* AlbumModel.m in Sources */,
+				C6128B7D0F0A82E600ED500B /* AlbumRequest.m in Sources */,
+				C6128B7E0F0A82E600ED500B /* GalleryModel.m in Sources */,
+				C6128B7F0F0A82E600ED500B /* GalleryRequest.m in Sources */,
+				C6128B800F0A82E600ED500B /* UploadData.m in Sources */,
+				C6128B810F0A82E600ED500B /* UploadPhotoRequest.m in Sources */,
+				C66D51AF0F1292DC0063EF87 /* AuthCoder.m in Sources */,
+				C60F23ED0F1932B900B80A28 /* NewAlbumRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB913B08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WebGUIiPhoto_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Application Support/iPhoto/Plugins";
+				PRODUCT_NAME = WebGUIiPhoto;
+				WRAPPER_EXTENSION = iPhotoExporter;
+			};
+			name = Debug;
+		};
+		1DEB913C08733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_LOCATION = NO;
+				DSTROOT = "/tmp/$(PROJECT_NAME).dst";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WebGUIiPhoto_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "/Library/Application Support/iPhoto/Plugins";
+				PRODUCT_NAME = WebGUIiPhoto;
+				WRAPPER_EXTENSION = iPhotoExporter;
+			};
+			name = Release;
+		};
+		1DEB913F08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1DEB914008733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "WebGUIiPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913B08733D840010E9CD /* Debug */,
+				1DEB913C08733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "WebGUIiPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913F08733D840010E9CD /* Debug */,
+				1DEB914008733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
